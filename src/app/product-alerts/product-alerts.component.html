@@ -1,0 +1,4 @@
+<!-- <button *ngIf="product.price > 700">Notify Me!</button> -->
+<div *ngIf="product.price > 700">
+  <div (click)="notify.emit()" class=" btn btn-danger my-2 mx-1">Notify me!</div>
+</div>
